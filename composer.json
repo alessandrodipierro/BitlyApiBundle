@@ -1,8 +1,7 @@
 {
   "name": "alessandrodipierro/bitly-api-bundle",
   "description": "A symfony wrapper bundle for Bit.ly API.",
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "minimum-stability": "stable",
   "keywords": ["bit.ly", "bitly", "api", "bitly-api", "php", "symfony"],
   "license": "proprietary",
   "authors": [
