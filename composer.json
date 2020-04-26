@@ -1,0 +1,22 @@
+{
+  "name": "alessandrodipierro/bitly-api-bundle",
+  "description": "A symfony wrapper bundle for Bit.ly API.",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "keywords": ["bit.ly", "bitly", "api", "bitly-api", "php", "symfony"],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alessandro Di Pierro",
+      "email": "dipierroale@outlook.it"
+    }
+  ],
+  "require": {
+    "php": "^7.4",
+    "symfony/framework-bundle": "^4.4|^5.0",
+    "phplicengine/bitly": "^1"
+  },
+  "autoload": {
+    "psr-4": { "AlessandroDiPierro\\BitlyApiBundle\\": "" }
+  }
+}

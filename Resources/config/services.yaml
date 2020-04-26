@@ -1,0 +1,3 @@
+services:
+  AlessandroDiPierro\BitlyApiBundle\Service\Api:
+    arguments: ['@service_container']
