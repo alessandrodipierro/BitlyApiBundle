@@ -20,3 +20,9 @@ A symfony wrapper bundle for Bit.ly API.
   bitly_api:
     api_key: 'API_KEY_HERE'
   ```
+Add bundle to the bundles configuration.
+  ```php
+  # config/bundles.php
+
+[ AlessandroDiPierro\BitlyApiBundle\BitlyApiBundle::class => ['all' => true]]
+  ```
