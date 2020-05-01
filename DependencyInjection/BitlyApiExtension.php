@@ -1,18 +1,14 @@
 <?php
 
-
 namespace AlessandroDiPierro\BitlyApiBundle\DependencyInjection;
 
-use Symfony\Component\Config\Definition\Exception\InvalidConfigurationException;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\Loader;
-use Symfony\Component\DependencyInjection\Reference;
 
 class BitlyApiExtension extends Extension
 {
-
     /**
      * @inheritDoc
      */
